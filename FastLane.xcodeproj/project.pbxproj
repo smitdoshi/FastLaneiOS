@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A278F95B1D7E8C0900B68391 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A278F95A1D7E8C0900B68391 /* main.m */; };
+		A278F95E1D7E8C0900B68391 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A278F95D1D7E8C0900B68391 /* AppDelegate.m */; };
+		A278F9611D7E8C0900B68391 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A278F9601D7E8C0900B68391 /* ViewController.m */; };
+		A278F9641D7E8C0900B68391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A278F9621D7E8C0900B68391 /* Main.storyboard */; };
+		A278F9661D7E8C0900B68391 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A278F9651D7E8C0900B68391 /* Images.xcassets */; };
+		A278F9691D7E8C0900B68391 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A278F9671D7E8C0900B68391 /* LaunchScreen.xib */; };
+		A278F9751D7E8C0900B68391 /* FastLaneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A278F9741D7E8C0900B68391 /* FastLaneTests.m */; };
+		A278F9801D7E8DE500B68391 /* cisco_router.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F97F1D7E8DE500B68391 /* cisco_router.png */; };
+		A278F9871D7E99FA00B68391 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9811D7E99FA00B68391 /* help.png */; };
+		A278F9881D7E99FA00B68391 /* helpPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9821D7E99FA00B68391 /* helpPressed.png */; };
+		A278F9891D7E99FA00B68391 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9831D7E99FA00B68391 /* status.png */; };
+		A278F98A1D7E99FA00B68391 /* statusPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9841D7E99FA00B68391 /* statusPressed.png */; };
+		A278F98B1D7E99FA00B68391 /* traffic_test.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9851D7E99FA00B68391 /* traffic_test.png */; };
+		A278F98C1D7E99FA00B68391 /* traffic_testPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = A278F9861D7E99FA00B68391 /* traffic_testPressed.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A278F96F1D7E8C0900B68391 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A278F94D1D7E8C0900B68391 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A278F9541D7E8C0900B68391;
+			remoteInfo = FastLane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A278F9551D7E8C0900B68391 /* FastLane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastLane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A278F9591D7E8C0900B68391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A278F95A1D7E8C0900B68391 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A278F95C1D7E8C0900B68391 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A278F95D1D7E8C0900B68391 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A278F95F1D7E8C0900B68391 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A278F9601D7E8C0900B68391 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A278F9631D7E8C0900B68391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A278F9651D7E8C0900B68391 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A278F9681D7E8C0900B68391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A278F96E1D7E8C0900B68391 /* FastLaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastLaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A278F9731D7E8C0900B68391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A278F9741D7E8C0900B68391 /* FastLaneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastLaneTests.m; sourceTree = "<group>"; };
+		A278F97F1D7E8DE500B68391 /* cisco_router.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cisco_router.png; sourceTree = "<group>"; };
+		A278F9811D7E99FA00B68391 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		A278F9821D7E99FA00B68391 /* helpPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = helpPressed.png; sourceTree = "<group>"; };
+		A278F9831D7E99FA00B68391 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status.png; sourceTree = "<group>"; };
+		A278F9841D7E99FA00B68391 /* statusPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = statusPressed.png; sourceTree = "<group>"; };
+		A278F9851D7E99FA00B68391 /* traffic_test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = traffic_test.png; sourceTree = "<group>"; };
+		A278F9861D7E99FA00B68391 /* traffic_testPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = traffic_testPressed.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A278F9521D7E8C0900B68391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A278F96B1D7E8C0900B68391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A278F94C1D7E8C0900B68391 = {
+			isa = PBXGroup;
+			children = (
+				A278F97E1D7E8DE500B68391 /* images */,
+				A278F9571D7E8C0900B68391 /* FastLane */,
+				A278F9711D7E8C0900B68391 /* FastLaneTests */,
+				A278F9561D7E8C0900B68391 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A278F9561D7E8C0900B68391 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A278F9551D7E8C0900B68391 /* FastLane.app */,
+				A278F96E1D7E8C0900B68391 /* FastLaneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A278F9571D7E8C0900B68391 /* FastLane */ = {
+			isa = PBXGroup;
+			children = (
+				A278F95C1D7E8C0900B68391 /* AppDelegate.h */,
+				A278F95D1D7E8C0900B68391 /* AppDelegate.m */,
+				A278F95F1D7E8C0900B68391 /* ViewController.h */,
+				A278F9601D7E8C0900B68391 /* ViewController.m */,
+				A278F9621D7E8C0900B68391 /* Main.storyboard */,
+				A278F9651D7E8C0900B68391 /* Images.xcassets */,
+				A278F9671D7E8C0900B68391 /* LaunchScreen.xib */,
+				A278F9581D7E8C0900B68391 /* Supporting Files */,
+			);
+			path = FastLane;
+			sourceTree = "<group>";
+		};
+		A278F9581D7E8C0900B68391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A278F9591D7E8C0900B68391 /* Info.plist */,
+				A278F95A1D7E8C0900B68391 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A278F9711D7E8C0900B68391 /* FastLaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				A278F9741D7E8C0900B68391 /* FastLaneTests.m */,
+				A278F9721D7E8C0900B68391 /* Supporting Files */,
+			);
+			path = FastLaneTests;
+			sourceTree = "<group>";
+		};
+		A278F9721D7E8C0900B68391 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A278F9731D7E8C0900B68391 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A278F97E1D7E8DE500B68391 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				A278F97F1D7E8DE500B68391 /* cisco_router.png */,
+				A278F9811D7E99FA00B68391 /* help.png */,
+				A278F9821D7E99FA00B68391 /* helpPressed.png */,
+				A278F9831D7E99FA00B68391 /* status.png */,
+				A278F9841D7E99FA00B68391 /* statusPressed.png */,
+				A278F9851D7E99FA00B68391 /* traffic_test.png */,
+				A278F9861D7E99FA00B68391 /* traffic_testPressed.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A278F9541D7E8C0900B68391 /* FastLane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A278F9781D7E8C0900B68391 /* Build configuration list for PBXNativeTarget "FastLane" */;
+			buildPhases = (
+				A278F9511D7E8C0900B68391 /* Sources */,
+				A278F9521D7E8C0900B68391 /* Frameworks */,
+				A278F9531D7E8C0900B68391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FastLane;
+			productName = FastLane;
+			productReference = A278F9551D7E8C0900B68391 /* FastLane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A278F96D1D7E8C0900B68391 /* FastLaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A278F97B1D7E8C0900B68391 /* Build configuration list for PBXNativeTarget "FastLaneTests" */;
+			buildPhases = (
+				A278F96A1D7E8C0900B68391 /* Sources */,
+				A278F96B1D7E8C0900B68391 /* Frameworks */,
+				A278F96C1D7E8C0900B68391 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A278F9701D7E8C0900B68391 /* PBXTargetDependency */,
+			);
+			name = FastLaneTests;
+			productName = FastLaneTests;
+			productReference = A278F96E1D7E8C0900B68391 /* FastLaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A278F94D1D7E8C0900B68391 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "SMIT DOSHI";
+				TargetAttributes = {
+					A278F9541D7E8C0900B68391 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					A278F96D1D7E8C0900B68391 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = A278F9541D7E8C0900B68391;
+					};
+				};
+			};
+			buildConfigurationList = A278F9501D7E8C0900B68391 /* Build configuration list for PBXProject "FastLane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A278F94C1D7E8C0900B68391;
+			productRefGroup = A278F9561D7E8C0900B68391 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A278F9541D7E8C0900B68391 /* FastLane */,
+				A278F96D1D7E8C0900B68391 /* FastLaneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A278F9531D7E8C0900B68391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A278F98C1D7E99FA00B68391 /* traffic_testPressed.png in Resources */,
+				A278F9801D7E8DE500B68391 /* cisco_router.png in Resources */,
+				A278F98B1D7E99FA00B68391 /* traffic_test.png in Resources */,
+				A278F9891D7E99FA00B68391 /* status.png in Resources */,
+				A278F9881D7E99FA00B68391 /* helpPressed.png in Resources */,
+				A278F9871D7E99FA00B68391 /* help.png in Resources */,
+				A278F9641D7E8C0900B68391 /* Main.storyboard in Resources */,
+				A278F9691D7E8C0900B68391 /* LaunchScreen.xib in Resources */,
+				A278F98A1D7E99FA00B68391 /* statusPressed.png in Resources */,
+				A278F9661D7E8C0900B68391 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A278F96C1D7E8C0900B68391 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A278F9511D7E8C0900B68391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A278F9611D7E8C0900B68391 /* ViewController.m in Sources */,
+				A278F95E1D7E8C0900B68391 /* AppDelegate.m in Sources */,
+				A278F95B1D7E8C0900B68391 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A278F96A1D7E8C0900B68391 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A278F9751D7E8C0900B68391 /* FastLaneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A278F9701D7E8C0900B68391 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A278F9541D7E8C0900B68391 /* FastLane */;
+			targetProxy = A278F96F1D7E8C0900B68391 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A278F9621D7E8C0900B68391 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A278F9631D7E8C0900B68391 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A278F9671D7E8C0900B68391 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A278F9681D7E8C0900B68391 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A278F9761D7E8C0900B68391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A278F9771D7E8C0900B68391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A278F9791D7E8C0900B68391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastLane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A278F97A1D7E8C0900B68391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FastLane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A278F97C1D7E8C0900B68391 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FastLaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLane.app/FastLane";
+			};
+			name = Debug;
+		};
+		A278F97D1D7E8C0900B68391 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FastLaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastLane.app/FastLane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A278F9501D7E8C0900B68391 /* Build configuration list for PBXProject "FastLane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A278F9761D7E8C0900B68391 /* Debug */,
+				A278F9771D7E8C0900B68391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A278F9781D7E8C0900B68391 /* Build configuration list for PBXNativeTarget "FastLane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A278F9791D7E8C0900B68391 /* Debug */,
+				A278F97A1D7E8C0900B68391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A278F97B1D7E8C0900B68391 /* Build configuration list for PBXNativeTarget "FastLaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A278F97C1D7E8C0900B68391 /* Debug */,
+				A278F97D1D7E8C0900B68391 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A278F94D1D7E8C0900B68391 /* Project object */;
+}
